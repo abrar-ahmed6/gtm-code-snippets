@@ -1,0 +1,7 @@
+//JS function to extract array value of arrayList output of querySelectorAll
+
+function() {
+var x = document.querySelectorAll("td.tleft.ng-binding");
+var i=12;
+  return x[i].innerText;
+}
