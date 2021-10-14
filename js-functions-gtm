@@ -12,3 +12,11 @@ function () {
     var Email = document.getElementAll("#send_email, #f5").value;
   return Email;
 }
+
+//Custom JS function to fetch value of an input field (Using Name when IDs dont work)
+
+function () {
+   var Email1 = document.getElementsByName("send_email")[0].value;
+    return Email1;
+}
+
