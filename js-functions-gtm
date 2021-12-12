@@ -33,3 +33,9 @@ function()
 var Car_Model = document.getElementsById("model")[0].selectedOptions[0].value;
   return Car_Model;
 }
+
+//Custom JS function to fetch value of a dropdown list using Ids when the above methods dont work
+function ()
+{
+return document.getElementById("model").options[document.getElementById("model").selectedIndex].value;
+}
