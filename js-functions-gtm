@@ -34,14 +34,16 @@ var Car_Model = document.getElementsById("model")[0].selectedOptions[0].value;
   return Car_Model;
 }
 
-//Custom JS function to fetch value of a dropdown list using Ids when the above methods dont work and there is no value attribute
+//Custom JS function to fetch value of a dropdown list using Ids when the above methods dont work and there is value attribute
+//<option value="98">dog</option> Want to get 98
 function ()
 {
 return document.getElementById("model").options[document.getElementById("model").selectedIndex].value;
 }
 
-//Custom JS function to fetch value of a dropdown list using Ids when the above methods dont work and there is a value attribute
+//Custom JS function to fetch text of a dropdown list using Ids when the above methods dont work and there is a value attribute as well
+//<option value="98">dog</option> Want to get dog
 function ()
 {
-return document.getElementById("model").options[document.getElementById("model").selectedIndex];
+return document.getElementById("model").options[document.getElementById("model").selectedIndex].text;
 }
