@@ -20,3 +20,16 @@ function () {
     return Email1;
 }
 
+//Custom JS function to fetch value of a dropdown list (Using Name when IDs dont work)
+function()
+{
+var Car_Model = document.getElementsByName("model")[0].selectedOptions[0].value;
+  return Car_Model;
+}
+
+//Custom JS function to fetch value of a dropdown list using Ids
+function()
+{
+var Car_Model = document.getElementsById("model")[0].selectedOptions[0].value;
+  return Car_Model;
+}
