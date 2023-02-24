@@ -6,7 +6,6 @@ var i=12;
   return x[i].innerText;
 }
 
-
 //Custom JS function to fetch value of an input field which may have different IDs
 function () {
     var Email = document.getElementAll("#send_email, #f5").value;
